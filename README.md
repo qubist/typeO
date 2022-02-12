@@ -1,0 +1,30 @@
+# typeO
+
+e-paper typing software and hardware
+
+## Background
+
+For now, this repo is for collecting relevant information for the prototyping of the typeO using a remarkable and a keyboard.
+
+## Pogo pin connector
+
+### Software
+
+[/pogo-pin-software.txt](/pogo-pin-software.txt)
+
+### Hardware
+
+#### Parts list
+
+- Pogo pin header: https://www.digikey.com/en/products/detail/821-22-005-10-001101/ED8198-05-ND/1146577?itemSeq=360991255
+- USB C breakout: https://www.digikey.com/en/products/detail/4090/1528-2873-ND/9951930?itemSeq=360991872
+- 10K ohm resistor: https://www.digikey.lu/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265
+- 1/8in x 1/2in magnets: https://www.kjmagnetics.com/proddetail.asp?prod=D28-N52&cat=168
+
+#### Setup
+
+![layout image](layout.png)
+
+[/prototype_circuit.fzz](/prototype_circuit.fzz)
+
+
