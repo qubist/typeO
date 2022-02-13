@@ -8,9 +8,11 @@ For now, this repo is for collecting relevant information for the prototyping of
 
 ## Pogo pin connector
 
+The pogo pin connector is in prototype stage. The goal of this device is to provide keyboard access to the reMarkable 2 through the Pogo pins, which have OTG support (unlike the USB C port).
+
 ### Software
 
-[/pogo-pin-software.txt](/pogo-pin-software.txt)
+See [pogo-pin-software.md](/pogo-pin-software.md)
 
 ### Hardware
 
@@ -21,10 +23,15 @@ For now, this repo is for collecting relevant information for the prototyping of
 - 10K ohm resistor: https://www.digikey.lu/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265
 - 1/8in x 1/2in magnets: https://www.kjmagnetics.com/proddetail.asp?prod=D28-N52&cat=168
 
-#### Setup
+#### Circuit
 
 ![layout image](layout.png)
 
-[/prototype_circuit.fzz](/prototype_circuit.fzz)
+[prototype_circuit.fzz](/prototype_circuit.fzz)
 
+#### 3D printed part
 
+The 3D printed part holds the magnets and pogo pin headers together and friction fits onto the remarkable. The magnets and flange help it align, and the pins should contact.
+
+![printed-part-1.png](printed-part-1.png)
+![printed-part-2.png](printed-part-2.png)
