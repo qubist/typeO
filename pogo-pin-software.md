@@ -23,6 +23,7 @@ The pogo pinout is:
 With the VBUS closest to the USB-C port. There is a custom linux drivers that controls the USB port dr mode and VBUS power ([[https://github.com/reMarkable/linux/tree/zero-sugar/drivers/misc/rm-otgcontrol]]). The driver monitors the status of the ID pin. If it gets grounded it tries to authenticate the device before changing the port to OTG mode. This authentication is intended to work over a one-wire protocol over the ID port, but is currently unimplemented. As a result the device detection is currently disabled by default ([[https://github.com/reMarkable/linux/commit/e27d817e3c968624f7ae454f9b643157a2d39dab]]).
 
 Luckily there is an unauthenticated mode that can be enabled by writing to sysfs:
+
     echo 2 > /sys/otgcontrol/control/otg1_controllermode
 
 Now whenever the ID pin is connected to ground, the VBUS supply will be set to OTG mode and the USB mode will change to host. This allows connecting any OTG device by connecting the pogo pins to a Micro-USB connector and using an OTG cable (or creating a custom pogo cable that connects ID to ground).
