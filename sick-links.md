@@ -20,3 +20,4 @@ Here we've compiled some sick links for reference, inspiration, connections, and
 * This guy velcro'd a Boox to his thinkpad: https://reddit.com/r/thinkpad/comments/8ursk1/one_way_to_use_a_thinkpad_in_the_sun_with_eink/
 * reMarkable (duh): https://remarkablewiki.com/ 
 * YouTube channel about all things e-Ink: https://www.youtube.com/c/MyDeepGuide/videos
+* e-Paper screens shop: https://www.waveshare.com/product/displays/e-paper.htm
