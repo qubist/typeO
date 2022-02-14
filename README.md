@@ -43,4 +43,4 @@ The 3D printed part holds the magnets and pogo pin headers together and friction
 
 ## Other resources
 
-[See also link collection](/sick links.md)
+[See also link collection](/sick-links.md)
