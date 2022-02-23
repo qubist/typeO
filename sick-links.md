@@ -22,3 +22,4 @@ Here we've compiled some sick links for reference, inspiration, connections, and
 * YouTube channel about all things e-Ink: https://www.youtube.com/c/MyDeepGuide/videos
 * e-Paper screens shop: https://www.waveshare.com/product/displays/e-paper.htm
 * Bright-screen simple no-distractions typing app that looks relevant. We should try the demo: https://ia.net/writer
+  * Similar thing: https://flow.rest/
