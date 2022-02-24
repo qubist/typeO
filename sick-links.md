@@ -23,3 +23,4 @@ Here we've compiled some sick links for reference, inspiration, connections, and
 * e-Paper screens shop: https://www.waveshare.com/product/displays/e-paper.htm
 * Bright-screen simple no-distractions typing app that looks relevant. We should try the demo: https://ia.net/writer
   * Similar thing: https://flow.rest/
+* Vim on rM2: https://www.reddit.com/r/RemarkableTablet/comments/kcpeaf/vim_on_rm2_thanks_a_ton_to_udobum_for_the_hard/
