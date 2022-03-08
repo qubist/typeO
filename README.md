@@ -16,6 +16,10 @@ See [pogo-pin-software.md](/pogo-pin-software.md)
 
 ### Hardware
 
+#### Prototype:
+
+https://www.youtube.com/watch?v=7q5tBEi4npA
+
 #### Parts list
 
 - Pogo pin header: https://www.digikey.com/en/products/detail/821-22-005-10-001101/ED8198-05-ND/1146577?itemSeq=360991255
@@ -25,9 +29,9 @@ See [pogo-pin-software.md](/pogo-pin-software.md)
 
 #### Circuit
 
-![layout image](layout.png)
+![layout image](layout.jpg)
 
-[prototype_circuit.fzz](/prototype_circuit.fzz)
+[Prototype circuit diagram](/prototype_circuit.fzz)
 
 #### 3D printed part
 
