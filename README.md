@@ -33,6 +33,8 @@ https://www.youtube.com/watch?v=7q5tBEi4npA
 
 [Prototype circuit diagram](/prototype_circuit.fzz)
 
+([Reference USB-C pinout](https://electronics.stackexchange.com/questions/291413/usb-c-to-usb-a-pinout/291427))
+
 #### 3D printed part
 
 The 3D printed part holds the magnets and pogo pin headers together and friction fits onto the remarkable. The magnets and flange help it align, and the pins should contact.
