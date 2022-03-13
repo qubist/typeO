@@ -5,7 +5,8 @@
 - USB-C port is not powered, works with USB-OTG if externally powered, and requires enabling in software.
 - Pogo pins are powered only if USB-C is plugged in, works with USB-OTG if enabled in software, and ID pin grounded.
     - "UPDATE: It seems like you need to have it plugged in to initially work, but after you do the initial fix, it works without plugging it in." (https://github.com/dps/remarkable-keywriter/issues/14#issuecomment-758293624)
-- If you wanna use a keyboard, the command echo 2 > /sys/otgcontrol/control/otg1_controllermode needs to be run on every reboot to get OTG to work. This can be done automatically. It also seems like it might need to be plugged in to power by USB-C when this command is run for it to work. 
+- If you wanna use a keyboard, the command echo 2 > /sys/otgcontrol/control/otg1_controllermode needs to be run on every reboot to get OTG to work. This can be done automatically. It also seems like it might need to be plugged in to power by USB-C when this command is run for it to work.
+    - Here's someone who set up this (or equivalent) command to run automatically: https://benkku.medium.com/the-remarkable-2-tablet-as-a-coding-writing-device-3981570343e2 (search for `Automatically turn on USB-On-the-Go / Host Mode`)
 
 ## From the Wiki
 
