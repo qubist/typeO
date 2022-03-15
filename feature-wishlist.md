@@ -10,6 +10,7 @@
 * 1 POGO (?) connection for an optional keyboard attachment/case
 * Optional keyboard attachment/case
 * Open source hardware
+* Expandable storage
 
 ### Software
 
