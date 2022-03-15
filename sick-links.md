@@ -27,3 +27,4 @@ Here we've compiled some sick links for reference, inspiration, connections, and
 * Video about eyesight in children: https://www.youtube.com/watch?v=vbCobKbLJls
   * It's not screens that make eyesight bad, it's lack of natural light, e-paper still helps w this!! Bc of outside computing
 * New Huawei e-ink tablet: https://www.phonearena.com/news/mwc-2022-huawei-announces-matepad-paper_id138765
+* News show about e-paper: https://www.youtube.com/channel/UCHhy08xelXhKIOwgsFssaTQ
