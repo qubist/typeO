@@ -26,6 +26,8 @@ https://www.youtube.com/watch?v=7q5tBEi4npA
 - USB C breakout: https://www.digikey.com/en/products/detail/4090/1528-2873-ND/9951930?itemSeq=360991872
 - 10K ohm resistor: https://www.digikey.lu/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265
 - 1/8in x 1/2in magnets: https://www.kjmagnetics.com/proddetail.asp?prod=D28-N52&cat=168
+- tiny dip switch on the PCB for hackability: https://www.digikey.com/en/products/detail/e-switch/KAE01SGGT/3749638
+
 
 #### Circuit
 
