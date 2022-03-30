@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/will/src/typeO/TypeO-conn-1/TypeO-conn-1.kicad_sch</source>
+    <date>Wednesday, March 30, 2022 at 12:01:27 PM</date>
+    <tool>Eeschema (6.0.4-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>TypeO-conn-1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>ID</value>
+      <footprint>Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d75139c9-6bbf-4bff-a021-8da65b8dbc4a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1199146e-a60b-416a-b503-e77d6d2892f9</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14052b08-1222-4446-b6b4-b88f5dfa20a6</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa594b1f-fd74-46a0-a124-e1d2aed26358</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>CC2</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>407fae1f-316c-420a-89e6-21f138123cbe</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>CC1</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a66a3b2f-f268-4e38-987e-b27ec003ce16</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7342cc82-e0e9-41f9-8b46-68197771b07f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d78982c9-f3ac-4a5e-bbb4-2fd7f47d4ff6</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x01</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx01_Slide_Omron_A6S-110x_W8.9mm_P2.54mm</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TypeO-conn-1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24841b68-2c7c-41a3-b3cd-6ba48790eba9</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/private/var/folders/v6/68fp0xys5xzg4ypg7qn45qqr0000gn/T/AppTranslocation/FDB0156A-FAE0-41B9-84B9-6039E42C15F9/d/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/private/var/folders/v6/68fp0xys5xzg4ypg7qn45qqr0000gn/T/AppTranslocation/FDB0156A-FAE0-41B9-84B9-6039E42C15F9/d/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/private/var/folders/v6/68fp0xys5xzg4ypg7qn45qqr0000gn/T/AppTranslocation/FDB0156A-FAE0-41B9-84B9-6039E42C15F9/d/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/private/var/folders/v6/68fp0xys5xzg4ypg7qn45qqr0000gn/T/AppTranslocation/FDB0156A-FAE0-41B9-84B9-6039E42C15F9/d/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/private/var/folders/v6/68fp0xys5xzg4ypg7qn45qqr0000gn/T/AppTranslocation/FDB0156A-FAE0-41B9-84B9-6039E42C15F9/d/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(J1-PadA1)">
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(J1-PadA4)">
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J1-PadA6)">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(J1-PadS1)">
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
