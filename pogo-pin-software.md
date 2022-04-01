@@ -25,14 +25,14 @@ With the VBUS closest to the USB-C port. There is a custom linux drivers that co
 
 Luckily there is an unauthenticated mode that can be enabled by writing to sysfs:
 
-    Create a file /usr/local/sbin/disableotg.sh
-    ```
-    #! /bin/sh
-    echo 2 > /sys/otgcontrol/control/otg1_controllermode
-    ```
-    Edit the table of cronjobs: `crontab -e`:
-    - Add the line disabling OTG-auth recurring at reboot ` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1`.
-    Reboot to get it running or run the script yourself.
+Create a file `/usr/local/sbin/disableotg.sh`
+```sh
+#! /bin/sh
+echo 2 > /sys/otgcontrol/control/otg1_controllermode
+```
+Edit the table of cronjobs: `crontab -e`:
+- Add the line disabling OTG-auth recurring at reboot ` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1`.
+Reboot to get it running or run the script yourself.
 
    
 
