@@ -31,7 +31,8 @@ Create a file `/usr/local/sbin/disableotg.sh`
 echo 2 > /sys/otgcontrol/control/otg1_controllermode
 ```
 Edit the table of cronjobs: `crontab -e`:
-- Add the line disabling OTG-auth recurring at reboot ` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1`.
+- Add the line disabling OTG-auth recurring at reboot 
+  ``` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1```.
 Reboot to get it running or run the script yourself.
 
    
