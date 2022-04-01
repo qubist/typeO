@@ -25,7 +25,16 @@ With the VBUS closest to the USB-C port. There is a custom linux drivers that co
 
 Luckily there is an unauthenticated mode that can be enabled by writing to sysfs:
 
+    Create a file /usr/local/sbin/disableotg.sh
+    ```
+    #! /bin/sh
     echo 2 > /sys/otgcontrol/control/otg1_controllermode
+    ```
+    Edit the table of cronjobs: `crontab -e`:
+    - Add the line disabling OTG-auth recurring at reboot ` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1`.
+    Reboot to get it running or run the script yourself.
+
+   
 
 Now whenever the ID pin is connected to ground, the VBUS supply will be set to OTG mode and the USB mode will change to host. This allows connecting any OTG device by connecting the pogo pins to a Micro-USB connector and using an OTG cable (or creating a custom pogo cable that connects ID to ground).
 
