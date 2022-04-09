@@ -11,5 +11,5 @@ Prompt
 function battery {
     rot power get batteryLevel
 }
-PS1="\u@\H:\w ($(battery)%) $ "
+PS1='\u@\H:\w ($(battery)%) $ '
 ```
