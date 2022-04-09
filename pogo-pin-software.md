@@ -8,6 +8,20 @@
 - If you wanna use a keyboard, the command `echo 2 > /sys/otgcontrol/control/otg1_controllermode` needs to be run on every reboot to get OTG to work. This can be done automatically. It also seems like it might need to be plugged in to power by USB-C when this command is run for it to work.
     - Here's someone who set up this (or equivalent) command to run automatically: https://benkku.medium.com/the-remarkable-2-tablet-as-a-coding-writing-device-3981570343e2 (search for `Automatically turn on USB-On-the-Go / Host Mode`)
 
+## Always enable OTG keyboard:
+
+Create a file `/usr/local/sbin/disableotg.sh`
+```sh
+#! /bin/sh
+echo 2 > /sys/otgcontrol/control/otg1_controllermode
+```
+Edit the table of cronjobs: `crontab -e`:
+- Add the line disabling OTG-auth recurring at reboot 
+  ``` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1```.
+Reboot to get it running or run the script yourself.
+
+---
+
 ## From the Wiki
 
 The remarkable 2 has two USB port, one USB-C port used for charging and connecting to a PC and a second one exposed on the pogo pins.
@@ -25,17 +39,7 @@ With the VBUS closest to the USB-C port. There is a custom linux drivers that co
 
 Luckily there is an unauthenticated mode that can be enabled by writing to sysfs:
 
-Create a file `/usr/local/sbin/disableotg.sh`
-```sh
-#! /bin/sh
-echo 2 > /sys/otgcontrol/control/otg1_controllermode
-```
-Edit the table of cronjobs: `crontab -e`:
-- Add the line disabling OTG-auth recurring at reboot 
-  ``` @reboot /usr/local/sbin/diableotg.sh >/dev/null 2>&1```.
-Reboot to get it running or run the script yourself.
-
-   
+    echo 2 > /sys/otgcontrol/control/otg1_controllermode
 
 Now whenever the ID pin is connected to ground, the VBUS supply will be set to OTG mode and the USB mode will change to host. This allows connecting any OTG device by connecting the pogo pins to a Micro-USB connector and using an OTG cable (or creating a custom pogo cable that connects ID to ground).
 
