@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=7q5tBEi4npA
 
 #### Circuit
 
-![Circuit diagram](gallery/kicad-circuit.jpg)
+![Circuit diagram](gallery/kicad-circuit.png)
 
 ![Layout image](gallery/layout.jpg)
 
