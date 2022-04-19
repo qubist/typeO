@@ -22,7 +22,10 @@ https://www.youtube.com/watch?v=7q5tBEi4npA
 
 #### Parts list
 
-- Pogo pin header: https://www.digikey.com/en/products/detail/821-22-005-10-001101/ED8198-05-ND/1146577?itemSeq=360991255
+- Pogo pin header:
+   - Straight: https://www.digikey.com/en/products/detail/821-22-005-10-001101/ED8198-05-ND/1146577?itemSeq=360991255
+   - Right-angle: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/829-22-005-20-001101/2416226
+   - Long: https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/816-22-005-10-003101/6149711
 - USB C breakout: https://www.digikey.com/en/products/detail/4090/1528-2873-ND/9951930?itemSeq=360991872
 - 10K ohm resistor: https://www.digikey.lu/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265
 - 1/8in x 1/2in magnets: https://www.kjmagnetics.com/proddetail.asp?prod=D28-N52&cat=168
