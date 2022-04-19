@@ -34,7 +34,9 @@ https://www.youtube.com/watch?v=7q5tBEi4npA
 
 #### Circuit
 
-![layout image](gallery/layout.jpg)
+![Circuit diagram](gallery/kicad-circuit.jpg)
+
+![Layout image](gallery/layout.jpg)
 
 [Prototype circuit diagram](pcb/prototype_circuit.fzz)
 
