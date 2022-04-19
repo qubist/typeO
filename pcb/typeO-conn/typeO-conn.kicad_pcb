@@ -236,7 +236,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cec63c84-ac55-4e84-99f9-686dee18e9b3)
     )
-    (fp_text value "Conn_01x05_Male" (at 7.62 7.62 90) (layer "F.Fab")
+    (fp_text value "Conn_01x05_Male" (at 4.778021 6.10179 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0eded119-8009-4729-a4f0-52acb4202868)
     )
