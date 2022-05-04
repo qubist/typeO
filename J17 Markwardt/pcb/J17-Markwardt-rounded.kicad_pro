@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "typeO-conn-rounded.kicad_pro",
+    "filename": "J17-Markwardt-rounded.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -367,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "J17-Markwardt-rounded.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
